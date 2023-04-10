@@ -5,9 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+    <script src="https://kit.fontawesome.com/5fc2885c3a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <!-- top player and blog section -->
+        <section>
+            <div class="top-players">
+                <h2 class="top-players-heading">Top Players</h2>
+                <div class="players">
+                    <div class="player player-1">
+                        <img src="images/players/player-1.png" alt="">
+                        <p>John Smith</p>
+                    </div>
+                    <div class=" player player-2">
+                        <img src="images/players/player-2.png" alt="">
+                        <p>Andre Rasel</p>
+                    </div>
+                    <div class=" player player-3">
+                        <img src="images/players/player-3.png" alt="">
+                        <p>Adam Albert</p>
+                    </div>
+                    <div class="player player-4">
+                        <img src="images/players/player-4.png" alt="">
+                        <p>Peter Chris</p>
+                    </div>
+                    <div class="player player-5">
+                        <img src="images/players/player-5.png" alt="">
+                        <p>Gerber Style</p>
+                    </div>
+                    <div class="player player-6">
+                        <img src="images/players/player-6.png" alt="">
+                        <p>David Sculin</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="top-blogs">
+                <h2 class="top-blogs-heading">Top Blogs</h2>
+                <div class="blogs">
+                    <div class="blog blog-1">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-meta">
+                            <h2 class="blog-title">13 of My Favorite <br> UI/UX Goodies</h2>
+                            <p class="blog-author">By <span class="blog-author-name">Danny Sapio</span> </p>
+                        </div>
+                    </div>
+                    <div class="blog blog-2">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-meta">
+                            <h2 class="blog-title">UI cheat sheet: <br> list vs grids</h2>
+                            <p class="blog-author">By <span class="blog-author-name">Tess Gadda</span> </p>
+                        </div>
+                    </div>
+                    <div class="blog blog-3">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-meta">
+                            <h2 class="blog-title">7 typography tips <br> for interface design</h2>
+                            <p class="blog-author">By <span class="blog-author-name">Jeremiah Lam</span> </p>
+                        </div>
+                    </div>
+                    <div class="blog blog-4">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-meta">
+                            <h2 class="blog-title">Your logo is <br> copied</h2>
+                            <p class="blog-author">By <span class="blog-author-name">Ferdinand Vogler</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest courses section -->
+        <section>
+            <h2 class="latest-courses-heading">Latest Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/courses/course-1.png" alt="">
+                    <h2 class="course-title">The React Native Course 2023</h2>
+                    <p class="course-author">Reed Krakoff</p>
+                    <div class="course-meta">
+                        <div class="course-rating">
+                            <div class="rating-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unfilled-star"></i>
+                            </div>
+                            <div class="rating-points">
+                                <p class="rating-point">4.5</p>
+                            </div>
+                        </div>
+                        <div class="course-duration">
+                            <p><i class="fa-regular fa-clock"></i> 01:20 hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-2.png" alt="">
+                    <h2 class="course-title">The PowerPoint Course 2023</h2>
+                    <p class="course-author">Walter Scott</p>
+                    <div class="course-meta">
+                        <div class="course-rating">
+                            <div class="rating-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unfilled-star"></i>
+                            </div>
+                            <div class="rating-points">
+                                <p class="rating-point">4.5</p>
+                            </div>
+                        </div>
+                        <div class="course-duration">
+                            <p><i class="fa-regular fa-clock"></i> 01:20 hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-3.png" alt="">
+                    <h2 class="course-title">The JavaScript Course 2023</h2>
+                    <p class="course-author">Reed Krakoff</p>
+                    <div class="course-meta">
+                        <div class="course-rating">
+                            <div class="rating-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unfilled-star"></i>
+                            </div>
+                            <div class="rating-points">
+                                <p class="rating-point">4.5</p>
+                            </div>
+                        </div>
+                        <div class="course-duration">
+                            <p><i class="fa-regular fa-clock"></i> 01:20 hr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
